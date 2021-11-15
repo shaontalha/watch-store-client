@@ -6,7 +6,7 @@ import React from 'react';
 const AddAproduct = () => {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = data => {
-        fetch('http://localhost:5000/addAproduct', {
+        fetch('https://desolate-everglades-53493.herokuapp.com/addAproduct', {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(data),

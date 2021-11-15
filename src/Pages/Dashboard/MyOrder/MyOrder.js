@@ -8,7 +8,7 @@ import { Grid } from '@mui/material';
 
 const MyOrder = ({ myOrder }) => {
     const handleDelete = id => {
-        fetch(`http://localhost:5000/deleteOrder/${id}`, {
+        fetch(`https://desolate-everglades-53493.herokuapp.com/deleteOrder/${id}`, {
             method: "DELETE"
         })
             .then(res => res.json())

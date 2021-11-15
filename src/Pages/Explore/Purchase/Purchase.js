@@ -11,7 +11,7 @@ const Purchase = () => {
         delete data.description;
         delete data.img;
 
-        fetch("http://localhost:5000/confirmOrder", {
+        fetch("https://desolate-everglades-53493.herokuapp.com/confirmOrder", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(data)
@@ -26,7 +26,7 @@ const Purchase = () => {
     const [product, setProduct] = useState({});
 
     useEffect(() => {
-        fetch(`http://localhost:5000/singleProduct/${productId}`)
+        fetch(`https://desolate-everglades-53493.herokuapp.com/singleProduct/${productId}`)
             .then(res => res.json())
             .then(data => {
                 setProduct(data)
