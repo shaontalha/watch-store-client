@@ -52,10 +52,12 @@ function Dashboard(props) {
     const drawer = (
         <div>
             <Toolbar />
-            <Divider />
+
+
             {/* Customer dashboard  */}
             {
                 !admin && <Box>
+
                     <Link style={{ textDecoration: "none", color: 'gray' }} to={`${url}/pay`}><Button color="inherit">Pay</Button></Link>
                     <Link style={{ textDecoration: "none", color: 'gray' }} to={`${url}/reviews`}><Button color="inherit">Reviews</Button></Link>
                     <Link style={{ textDecoration: "none", color: 'gray' }} to={`${url}/myOrders`}><Button color="inherit">My Orders</Button></Link>
@@ -64,6 +66,7 @@ function Dashboard(props) {
             {/* Admin Dashboard */}
             {
                 admin && <Box>
+
                     <Link style={{ textDecoration: "none", color: 'gray' }} to={`${url}/manageAllOrders`}><Button color="inherit">Manage All Orders</Button></Link>
                     <Link style={{ textDecoration: "none", color: 'gray' }} to={`${url}/addAproduct`}><Button color="inherit">Add A Product</Button></Link>
                     <Link style={{ textDecoration: "none", color: 'gray' }} to={`${url}/makeAdmin`}><Button color="inherit">Make Admin</Button></Link>

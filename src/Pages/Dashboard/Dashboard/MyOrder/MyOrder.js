@@ -14,12 +14,7 @@ const MyOrder = ({ myOrder }) => {
             .then(res => res.json())
             .then(data => console.log(data));
         console.log(id);
-        /* if (data.deletedCount) {
-            alert('deleted')
 
-
-
-        } */
 
 
     }
