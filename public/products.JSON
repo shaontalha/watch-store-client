@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Rolex",
+        "description": "Rolex is a reknowned Brand",
+        "price": 5000,
+        "img": "https://www.prestigetime.com/blog/images/ochri/935131c6be29beec7ef9e2a076d8c7ed-1200px.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Patek Philippe",
+        "description": "Patek Philippe is a reknowned Brand",
+        "price": 5900,
+        "img": "https://www.prestigetime.com/blog/images/ochri/fec10f3755c16bbcbca6930749bfa11e-1200px.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Vacheron Constantin",
+        "description": "Vacheron Constantin is a reknowned Brand",
+        "price": 8000,
+        "img": "https://www.prestigetime.com/blog/images/ochri/8f0eed08aa9aaaa49bc784b5ae6de99f-1200px.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Audemars Piguet",
+        "description": "Audemars Piguet is a reknowned Brand",
+        "price": 7000,
+        "img": "https://www.prestigetime.com/blog/images/ochri/17d098d14d220e235d3f20c1bff9d87b-1200px.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Blancpain",
+        "description": "Blancpain is a reknowned Brand",
+        "price": 5000,
+        "img": "https://www.prestigetime.com/blog/images/ochri/c343dd084da175a958bcc78c880d57ba-1200px.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Ulysse Nardin",
+        "description": "Ulysse Nardin is a reknowned Brand",
+        "price": 5700,
+        "img": "https://www.prestigetime.com/blog/images/ochri/4b69254abd839f28b7ce3050f30548e3-1200px.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Jaeger-LeCoultre",
+        "description": "RJaeger-LeCoultre is a reknowned Brand",
+        "price": 8000,
+        "img": "https://www.prestigetime.com/blog/images/ochri/7e4607ab61fd70edb8928673d38d19bf-1200px.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Omega",
+        "description": "Omega is a reknowned Brand",
+        "price": 50700,
+        "img": "https://www.prestigetime.com/blog/images/ochri/3665e13d2bb96e37c33df7cf08363bee-1200px.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Glashutte Original",
+        "description": "Glashutte Original is a reknowned Brand",
+        "price": 5000,
+        "img": "https://www.prestigetime.com/blog/images/ochri/77ba3b4228c4b6034057872859cce019-1200px.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Jaquet Droz",
+        "description": "Jaquet Droz is a reknowned Brand",
+        "price": 50000,
+        "img": "https://www.prestigetime.com/blog/images/ochri/adf3ff09aad7a9ff184cfc76c2da7574-1200px.jpg"
+    }
+]
