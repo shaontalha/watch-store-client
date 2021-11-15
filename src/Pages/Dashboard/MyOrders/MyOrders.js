@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import useAuth from '../../../hooks/useAuth';
-import MyOrder from '../Dashboard/MyOrder/MyOrder';
+import MyOrder from '../MyOrder/MyOrder';
 
 const MyOrders = () => {
     const { user } = useAuth();
@@ -9,6 +9,7 @@ const MyOrders = () => {
 
         fetch(`http://localhost:5000/myOrders/${user.email}`)
             .then(res => res.json())
+
             .then(data => setMyOrders(data));
     }, [])
     return (
